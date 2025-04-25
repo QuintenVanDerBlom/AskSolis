@@ -18,7 +18,6 @@ const StreamingChat = () => {
         const userMessage = input;
         setInput('');
         
-        
         setMessages(prev => [...prev, { role: 'user', content: userMessage }]);
 
         try {
